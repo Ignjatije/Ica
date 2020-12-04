@@ -1,4 +1,3 @@
-<script>
 $(document).on("click","#Devoted1", function () {
     $('#Devoted').click();
 });
@@ -158,4 +157,3 @@ $(document).on("click","#Influential1", function () {
 $('#Influential').click(function(){
 this.checked?$('#Influential1').show(400):$('#Influential1').hide(400); //time for show
 }); 
-</script>
